@@ -11,7 +11,7 @@ else if (Data?.GeneralInfo?.DisplayName?.Content.ToLower() == "deltarune chapter
     return;
 }
 
-ScriptMessage("Press F12 to reload the current JSON");
+ScriptMessage("Press F12 to reload the current GIF");
 
 var code = Data.GameObjects.ByName("obj_time").EventHandlerFor(EventType.KeyPress, EventSubtypeKey.vk_f12, Data);
 
